@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+	<head>
+		<meta http-equiv="last-modified" content="0">
+		<meta charset="utf-8" />
+		<script type="text/javascript" src="script/login.js"></script>
+		<script type="text/javascript" src="script/jquery-ui-1.10.3.custom/js/jquery-1.9.1.js"></script>
+		<script type="text/javascript" src="script/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.js"></script>
+		<script type="text/javascript" src="script/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js"></script>
+		<link rel="stylesheet" href="script/jquery-ui-1.10.3.custom/css/start/jquery-ui-1.10.3.custom.css" />
+		<link rel="stylesheet" href="script/jquery-ui-1.10.3.custom/css/start/jquery-ui-1.10.3.custom.min.css" />
+		<link rel="stylesheet" href="consulta.css" />
+		<img src="img\head.png">
+		
+	</head>
+	<body>
+		<center>
+		<form id="log" name="formi" action="back/login.php" method="post">
+			<table>
+				<tr>
+					<td><font face="verdana"><b>RUT: </font></td>
+					<td><input type="text" name="rut" id="login" onkeyup="verificar()"></td>
+					<td><div id="imagen"><div></td>
+				<tr>
+				<tr>
+					<td><font face="verdana"><b>PASS: </font></td>
+					<td><input type="password" name="pass" id="pass"></td>
+				</tr>
+			</table>
+			<input class="boton" name="btn" type="submit" value="Ingresar" disabled="true">
+		</form>
+		</center>
+	</body>
+	<div class="footer-wrapper">
+<div id="footer">
+            <ul id="footer-menu">
+                <a href="http://localhost/consulta/"><font face="arial" color="white">Home</font></a>
+            </ul>
+
+            <div class="footer-copyright"><font face="arial" color="white">Copyright &copy; 2013 Centro Médico Dental Hnos. Fuster. Todos los derechos reservados.</font></div>
+</div>
+</div>
+</html>
